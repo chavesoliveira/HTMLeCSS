@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root{
+	--primary: #00DDAF;
+	--secondary: #2C373B;
+}
+body{
+	font-family: 'Ubuntu','Arial',sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+.topbar{
+	background: var(--secondary);
+	color: white;
+	padding: 20px 0;
+}
+.site-title{
+	font-size: 36px;
+}
+.site-title span{
+	font-size: 10px;
+	transform: rotate(-90deg) translate(6px);
+	display: inline-block;
+	margin-left: -12px;
+	color: var(--primary);
+	font-weight: bold;
+}
+.menubar{
+	background-color: white;
+}
+.menu a{
+	text-decoration: none;
+	padding: 26px;
+	display: inline-block;
+	text-transform: uppercase; /*transform colocar texto em maiusculo*/
+	color: var(--secondary);
+	font-weight: bold; /*weight = negrito*/
+	border-right: 1px solid #ddd;
+}
+.search{
+	padding: 10px 14px;
+	border: 1px solid #ddd;
+	height: 40px;
+	border-radius: 20px;
+	width: 350px;
+	outline: none;
+}
+.search:hover{
+	border-color: #bbb;
+}
+.search:focus{
+	border-color: #999;
+}
+.search-btn{
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: var(--secondary);
+	color: white;
+	margin-left: -40px;
+	cursor: pointer;
+}
