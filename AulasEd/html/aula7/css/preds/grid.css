@@ -1,0 +1,71 @@
+/* SISTEMA DE GRID */
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+}
+.between{    /* espaço entre os elementos horizontais */
+	justify-content: space-between;
+}
+.around{
+	justify-content: space-around;
+}
+.evenly{
+	justify-content: space-evenly;
+}
+.h-center{
+	justify-content: center;
+}
+.v-center{   /* alinhamento vertical */
+	align-items: center;
+}
+.col{
+	flex: 1;
+}
+.col.shrink{
+	flex: none;
+	flex-shrink: 1;
+}
+.col.grow{
+	flex-grow: 1;
+	flex: none;
+}
+.col-12{
+	width: 100%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-9{
+	width: 75%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-6{
+	width: 50%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-3{
+	width: 25%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-1{
+	width: 8.33;
+}
